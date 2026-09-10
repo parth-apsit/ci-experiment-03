@@ -7,3 +7,6 @@ def test_add():
 
 def test_greet():
     assert greet("GitHub") == "Hello, GitHub!"
+
+def test_multiply():
+    assert multiply(4, 5) == 20
